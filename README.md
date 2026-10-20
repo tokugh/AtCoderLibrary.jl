@@ -2,6 +2,42 @@
 
 [AtCoder Library (ACL)](https://github.com/atcoder/ac-library) の Julia 移植。
 
+## すぐに使う
+
+### 提出コードに貼る(AtCoder 本番向け)
+
+1. [`src/`](src/) から必要なモジュールのファイルを開き、**中身を丸ごと**提出コードに貼る
+2. 依存があるものは一緒に貼る:`convolution.jl` → `modint.jl`、`twosat.jl` → `scc.jl`
+3. 各ファイル 1 行目のリポジトリへのリンクも消さずに残す
+   (AtCoder の[生成 AI 利用ルール](https://info.atcoder.jp/entry/llm-rules-ja)上の出典表記を兼ねる)
+
+添え字は **1-indexed・閉区間**。0-indexed の入力は読み込み時に `+ 1` する。
+
+### 用例を見る
+
+[AtCoder Library Practice Contest](https://atcoder.jp/contests/practice2) A〜L の解答例:
+
+- [`practice/submit/`](practice/submit/) … ライブラリを貼り込み済みの**そのまま提出できる**ファイル(`a.jl`〜`l.jl`)
+- [`practice/`](practice/) … `using AtCoderLibrary` で書いた版(手元実行用)
+
+| 問題 | モジュール | 問題 | モジュール |
+|---|---|---|---|
+| A | dsu | G | scc |
+| B | fenwicktree | H | twosat(+ scc) |
+| C | math(`floor_sum`) | I | string |
+| D | maxflow | J | segtree |
+| E | mincostflow | K | lazysegtree(+ modint) |
+| F | convolution(+ modint) | L | lazysegtree |
+
+### パッケージとして入れる(手元環境向け)
+
+```julia
+using Pkg; Pkg.add(url="https://github.com/tokugh/AtCoderLibrary.jl")
+using AtCoderLibrary
+```
+
+## 設計方針
+
 設計方針の詳細は [acl-julia-design-notes.md](acl-julia-design-notes.md) を参照。要約:
 
 | 層 | 方針 |
