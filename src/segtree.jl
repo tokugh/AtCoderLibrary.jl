@@ -1,3 +1,4 @@
+# Library: https://github.com/tokugh/AtCoderLibrary.jl
 """
     SegTree(op, e, v::AbstractVector)
     SegTree(op, e, n::Integer)

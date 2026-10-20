@@ -1,3 +1,4 @@
+# Library: https://github.com/tokugh/AtCoderLibrary.jl
 # convolution.jl — NTT(数論変換)による畳み込み
 #
 # C++ 版 ACL convolution.hpp の移植。内部の butterfly / butterfly_inv は

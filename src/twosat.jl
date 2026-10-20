@@ -1,3 +1,4 @@
+# Library: https://github.com/tokugh/AtCoderLibrary.jl
 # twosat.jl — 2-SAT ソルバ (C++ 版 atcoder/twosat.hpp の移植)
 #
 # Reference:

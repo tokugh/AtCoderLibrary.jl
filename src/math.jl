@@ -1,3 +1,4 @@
+# Library: https://github.com/tokugh/AtCoderLibrary.jl
 # ACL math.hpp の移植。数論的関数群(pow_mod / inv_mod / crt / floor_sum)。
 
 """

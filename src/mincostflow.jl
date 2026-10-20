@@ -1,3 +1,4 @@
+# Library: https://github.com/tokugh/AtCoderLibrary.jl
 # mincostflow.jl — 最小費用流(dual-primal + Dijkstra)。C++ 版 ACL mincostflow.hpp の移植。
 
 """

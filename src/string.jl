@@ -1,3 +1,4 @@
+# Library: https://github.com/tokugh/AtCoderLibrary.jl
 # string.jl — suffix_array / lcp_array / z_algorithm
 #
 # C++ 版 ACL (atcoder/string.hpp) の移植。内部の SA-IS は位置・文字値とも

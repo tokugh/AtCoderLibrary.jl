@@ -1,3 +1,4 @@
+# Library: https://github.com/tokugh/AtCoderLibrary.jl
 """
     LazySegTree(op, e, mapping, composition, id, v::AbstractVector)
     LazySegTree(op, e, mapping, composition, id, n::Integer)
