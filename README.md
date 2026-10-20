@@ -22,12 +22,12 @@
 
 | 問題 | モジュール | 問題 | モジュール |
 |---|---|---|---|
-| A | dsu | G | scc |
-| B | fenwicktree | H | twosat(+ scc) |
-| C | math(`floor_sum`) | I | string |
-| D | maxflow | J | segtree |
-| E | mincostflow | K | lazysegtree(+ modint) |
-| F | convolution(+ modint) | L | lazysegtree |
+| [A](practice/submit/a.jl) | dsu | [G](practice/submit/g.jl) | scc |
+| [B](practice/submit/b.jl) | fenwicktree | [H](practice/submit/h.jl) | twosat(+ scc) |
+| [C](practice/submit/c.jl) | math(`floor_sum`) | [I](practice/submit/i.jl) | string |
+| [D](practice/submit/d.jl) | maxflow | [J](practice/submit/j.jl) | segtree |
+| [E](practice/submit/e.jl) | mincostflow | [K](practice/submit/k.jl) | lazysegtree(+ modint) |
+| [F](practice/submit/f.jl) | convolution(+ modint) | [L](practice/submit/l.jl) | lazysegtree |
 
 ### パッケージとして入れる(手元環境向け)
 
