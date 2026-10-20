@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Julia: パッケージでは Manifest を管理しない
+Manifest.toml
+test/Manifest.toml
+
+# 検証用の生成物(verify/run.sh で再生成できる)
+verify/bin/
+verify/tmp/
+
+# 提出ビルドのログ
+practice/submit/*.log
+
+# AtCoder の問題サンプル(問題文側の著作物)
+practice/samples/
+
+# C++ 版 ACL へのローカルリンク(verify/run.sh が参照)
+verify/ac-library

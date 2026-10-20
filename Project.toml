@@ -1,0 +1,7 @@
+name = "AtCoderLibrary"
+uuid = "e971a416-8849-4ad7-aac8-fa861d4157f0"
+authors = ["tokugh"]
+version = "0.1.0"
+
+[compat]
+julia = "1.9"
