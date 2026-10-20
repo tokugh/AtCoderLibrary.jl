@@ -43,6 +43,7 @@ function (@main)(ARGS)
 end
 
 # ==== ライブラリ: scc.jl ====
+# Library: https://github.com/tokugh/AtCoderLibrary.jl
 # scc.jl — 強連結成分分解 (C++ 版 atcoder/scc.hpp, internal_scc.hpp の移植)
 
 # 内部: CSR 形式の隣接リスト。頂点 v の隣接は elist[start[v] : start[v+1]-1]
@@ -179,6 +180,7 @@ function scc(g::SCCGraph)
 end
 
 # ==== ライブラリ: twosat.jl ====
+# Library: https://github.com/tokugh/AtCoderLibrary.jl
 # twosat.jl — 2-SAT ソルバ (C++ 版 atcoder/twosat.hpp の移植)
 #
 # Reference:

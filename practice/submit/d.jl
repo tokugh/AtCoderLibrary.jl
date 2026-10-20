@@ -49,6 +49,7 @@ function (@main)(ARGS)
 end
 
 # ==== ライブラリ: maxflow.jl ====
+# Library: https://github.com/tokugh/AtCoderLibrary.jl
 # maxflow.jl — 最大流(Dinic 法)。C++ 版 ACL maxflow.hpp の移植。
 
 # 内部辺:to へ向かう辺。rev は g[to] 内の逆辺の位置、cap は残余容量

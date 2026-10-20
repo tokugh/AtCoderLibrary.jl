@@ -33,6 +33,7 @@ function (@main)(ARGS)
 end
 
 # ==== ライブラリ: modint.jl ====
+# Library: https://github.com/tokugh/AtCoderLibrary.jl
 """
     ModInt{M} <: Number
 
@@ -101,6 +102,7 @@ Base.convert(::Type{ModInt{M}}, x::Integer) where {M} = ModInt{M}(x)
 Base.show(io::IO, a::ModInt) = print(io, val(a))
 
 # ==== ライブラリ: lazysegtree.jl ====
+# Library: https://github.com/tokugh/AtCoderLibrary.jl
 """
     LazySegTree(op, e, mapping, composition, id, v::AbstractVector)
     LazySegTree(op, e, mapping, composition, id, n::Integer)

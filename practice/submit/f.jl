@@ -19,6 +19,7 @@ function (@main)(ARGS)
 end
 
 # ==== ライブラリ: modint.jl ====
+# Library: https://github.com/tokugh/AtCoderLibrary.jl
 """
     ModInt{M} <: Number
 
@@ -87,6 +88,7 @@ Base.convert(::Type{ModInt{M}}, x::Integer) where {M} = ModInt{M}(x)
 Base.show(io::IO, a::ModInt) = print(io, val(a))
 
 # ==== ライブラリ: convolution.jl ====
+# Library: https://github.com/tokugh/AtCoderLibrary.jl
 # convolution.jl — NTT(数論変換)による畳み込み
 #
 # C++ 版 ACL convolution.hpp の移植。内部の butterfly / butterfly_inv は

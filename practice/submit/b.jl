@@ -28,6 +28,7 @@ function (@main)(ARGS)
 end
 
 # ==== ライブラリ: fenwicktree.jl ====
+# Library: https://github.com/tokugh/AtCoderLibrary.jl
 """
     FenwickTree(v::AbstractVector{S})   # op = +, e = zero(S), invop = -
     FenwickTree{S}(n::Integer)          # 同上、全要素 zero(S)

@@ -25,6 +25,7 @@ function (@main)(ARGS)
 end
 
 # ==== ライブラリ: dsu.jl ====
+# Library: https://github.com/tokugh/AtCoderLibrary.jl
 # ACL dsu.hpp の移植。素集合データ構造(union by size + 経路圧縮)。
 
 """
